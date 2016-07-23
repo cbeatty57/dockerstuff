@@ -1,7 +1,7 @@
 FROM node
 MAINTAINER cbeatty
 
-RUN sudo npm install -g shout
+RUN npm install -g shout
 
 EXPOSE 9000
 
